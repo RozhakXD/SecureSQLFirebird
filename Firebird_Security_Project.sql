@@ -37,20 +37,18 @@ CREATE USER rozhak PASSWORD 'pwd_rozhak';
 COMMIT;
 
 -- 5. Pemberian Hak Akses
-GRANT SELECT ON employees TO maulana;
-GRANT INSERT ON employees TO maulana;
+GRANT SELECT, INSERT ON employees TO maulana;
 
-GRANT INSERT ON attendance TO zahra;
-GRANT SELECT ON attendance TO zahra;
+GRANT SELECT, INSERT ON attendance TO zahra;
 
 GRANT UPDATE (name) ON employees TO didik;
 GRANT SELECT ON employees TO didik;
 
-GRANT DELETE ON attendance TO arsya;
-GRANT SELECT ON attendance TO arsya;
+GRANT DELETE, SELECT ON attendance TO arsya;
 
 GRANT SELECT ON employees TO rozhak;
 GRANT SELECT ON attendance TO rozhak;
+
 COMMIT;
 
 -- 6. REVOKE Hak Akses
