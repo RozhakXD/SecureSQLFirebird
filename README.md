@@ -19,7 +19,7 @@
    - 64-bit:  
     `cd "C:\Program Files\Firebird\Firebird_5_0\bin"`
    - 32-bit:  
-    `cd "C:\Program Files (x86)\Firebird\Firebird_5_0\bin"`
+    `cd "C:\Program Files (x86)\Firebird\Firebird_5_0\"`
 
 3. Jalankan Firebird SQL CLI:
     ```bash
